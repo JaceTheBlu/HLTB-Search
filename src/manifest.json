@@ -4,9 +4,10 @@
   "version": "1.0",
   "description": "Search HLTB directly from Firefox's search bar.",
   "icons": {
-    "32": "icons/HLTB-Search-32.jpg",
-    "48": "icons/HLTB-Search-48.jpg",
-    "64": "icons/HLTB-Search-64.jpg"
+    "32": "icons/HLTB-Search-32.png",
+    "48": "icons/HLTB-Search-48.png",
+    "64": "icons/HLTB-Search-64.png",
+    "128": "icons/HLTB-Search-128.png"
   },
   "permissions": ["tabs"],
   "omnibox": {
