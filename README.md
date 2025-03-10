@@ -7,15 +7,23 @@ This Firefox extension allows users to quickly search for game completion times 
 - Redirects search queries in the format `@hltb <game_name>` to the "How Long to Beat" website.
 - Simple and user-friendly interface.
 
+## Marketplace
+
+You can install the extension directly from the [Firefox Add-ons marketplace](https://addons.mozilla.org/en-US/firefox/addon/how-long-to-beat-search/).
+
 ## Installation
 
+Or you do it the hard way:
+
 1. Clone the repository:
-   ```
+
+   ```sh
    git clone <repository-url>
    ```
 
 2. Navigate to the extension directory:
-   ```
+
+   ```sh
    cd firefox-extension
    ```
 
