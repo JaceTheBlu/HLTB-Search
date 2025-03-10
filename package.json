@@ -8,7 +8,7 @@
     "lint": "web-ext lint",
     "sign": "web-ext sign --api-key=$WEB_EXT_API_KEY --api-secret=$WEB_EXT_API_SECRET --channel=listed --amo-metadata=src/amo-metadata.json"
   },
-  "author": "Your Name",
+  "author": "JaceTheBlu",
   "license": "GPL-3.0",
   "devDependencies": {
     "web-ext": "^6.4.0"
