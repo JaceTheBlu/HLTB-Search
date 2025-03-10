@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "How Long to Beat Search",
+  "version": "1.0",
+  "description": "Search HLTB directly from Firefox's search bar.",
+  "icons": {
+    "32": "icons/HLTB-Search-32.jpg",
+    "48": "icons/HLTB-Search-48.jpg",
+    "64": "icons/HLTB-Search-64.jpg"
+  },
+  "permissions": ["tabs"],
+  "omnibox": {
+    "keyword": "@hltb"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
