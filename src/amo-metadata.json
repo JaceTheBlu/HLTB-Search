@@ -1,5 +1,5 @@
 {
-  "version": { "license": "GPL-3.0" },
+  "version": { "license": "GPL-3.0-only" },
   "categories": { "firefox": ["search-tools"] },
   "requires_payment": false,
   "homepage": {
