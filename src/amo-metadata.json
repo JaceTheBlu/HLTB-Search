@@ -1,0 +1,13 @@
+{
+  "version": { "license": "GPL-3.0" },
+  "categories": { "firefox": ["search-tools"] },
+  "requires_payment": false,
+  "homepage": {
+    "en-US": "https://github.com/JaceTheBlu/HLTB-Search",
+    "fr": "https://github.com/JaceTheBlu/HLTB-Search"
+  },
+  "support_email": {
+    "en-US": "support-htlb-search@ggestin.con",
+    "fr": "support-htlb-search@ggestin.con"
+  }
+}
