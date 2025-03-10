@@ -4,4 +4,14 @@ chrome.omnibox.onInputEntered.addListener(function (text) {
 
   // Open the search URL in a new tab
   chrome.tabs.create({ url: searchUrl });
+
+  // Save the search term to localStorage
+  chrome.storage.local.get({ searchHistory: [] }, function (result) {
+    let searchHistory = result.searchHistory;
+    searchHistory.unshift(text);
+    if (searchHistory.length > 5) {
+      searchHistory.pop();
+    }
+    chrome.storage.local.set({ searchHistory: searchHistory });
+  });
 });

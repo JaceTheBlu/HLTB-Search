@@ -12,11 +12,17 @@
         margin: 0;
         background-color: black;
         color: white;
+        position: relative;
+      }
+      .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
       }
       img {
         width: 48px;
         height: 48px;
-        margin-bottom: 10px;
       }
       a {
         color: #1a73e8;
@@ -36,20 +42,84 @@
         border-radius: 3px;
         margin-top: 10px;
       }
+      ol {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        counter-reset: list-counter;
+      }
+      li {
+        margin: 5px 0;
+        padding-left: 20px;
+        position: relative;
+      }
+      li::before {
+        content: counter(list-counter) ".";
+        counter-increment: list-counter;
+        position: absolute;
+        left: 0;
+        color: #1a73e8;
+      }
+      .github-button {
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+      .github-button img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+      .clear-button {
+        background-color: #333;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        margin-left: auto;
+      }
+      .clear-button:hover {
+        background-color: #555;
+      }
+      .history-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #history {
+        margin-left: 10px;
+      }
     </style>
   </head>
   <body>
-    <img src="../icons/HLTB-Search-128.png" alt="How Long to Beat Icon" />
+    <div class="menu">
+      <img src="../icons/HLTB-Search-128.png" alt="How Long to Beat Icon" />
+      <a
+        href="https://github.com/JaceTheBlu/HLTB-Search"
+        target="_blank"
+        class="github-button"
+      >
+        <img src="../icons/github.png" alt="GitHub Icon" />
+        View on GitHub
+      </a>
+    </div>
     <h1>How Long to Beat Search</h1>
     <p>
-      Search for games on
-      <a href="https://howlongtobeat.com" target="_blank">HLTB</a> by typing:
+      Search for games duration on
+      <a href="https://howlongtobeat.com" target="_blank">HLTB</a> by typing in
+      the address bar:
     </p>
     <code>@hltb &lt;game_name&gt;</code>
-    <p>
-      <a href="https://github.com/JaceTheBlu/HLTB-Search" target="_blank"
-        >View on GitHub</a
-      >
-    </p>
+    <div class="history-header">
+      <h1>Search History</h1>
+      <button class="clear-button" id="clear-history">Clear History</button>
+    </div>
+    <ol id="history"></ol>
+    <script src="popup.js"></script>
   </body>
 </html>

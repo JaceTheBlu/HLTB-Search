@@ -9,12 +9,12 @@
     "64": "icons/HLTB-Search-64.png",
     "128": "icons/HLTB-Search-128.png"
   },
-  "permissions": ["tabs"],
+  "permissions": ["storage", "tabs", "activeTab"],
   "omnibox": {
     "keyword": "@hltb"
   },
   "browser_action": {
-    "default_icon": "icons/HLTB-Search-32.png",
+    "default_icon": "icons/HLTB-Search-48.png",
     "default_title": "HLTB Search",
     "default_popup": "src/popup.html"
   },
