@@ -19,6 +19,9 @@
     "default_title": "HLTB Search",
     "default_popup": "src/popup.html"
   },
+  "browser_specific_settings": {
+    "gecko": { "id": "{b925bf3f-b4d5-4256-8f4e-1f844a246228}" }
+  },
   "background": {
     "scripts": ["src/background.js"],
     "persistent": false
