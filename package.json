@@ -1,0 +1,16 @@
+{
+  "name": "hltb-search",
+  "version": "1.0.0",
+  "description": "Search HLTB directly from Firefox's search bar.",
+  "main": "src/background.js",
+  "scripts": {
+    "build": "web-ext build",
+    "lint": "web-ext lint",
+    "sign": "web-ext sign --api-key=$WEB_EXT_API_KEY --api-secret=$WEB_EXT_API_SECRET --channel=listed"
+  },
+  "author": "Your Name",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "web-ext": "^6.4.0"
+  }
+}
