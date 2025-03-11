@@ -1,13 +1,34 @@
 {
-  "version": { "license": "GPL-3.0-only" },
-  "categories": { "firefox": ["search-tools"] },
-  "requires_payment": false,
+  "categories": { "firefox": ["search-tools", "bookmarks"] },
+  "default_locale": "en-US",
+  "description": {
+    "en-US": "This Firefox extension allows users to quickly search for game completion times on the 'How Long to Beat' website directly from the browser's search bar.",
+    "fr": "Cette extension Firefox permet aux utilisateurs de rechercher rapidement les temps de complétion des jeux sur le site 'How Long to Beat' directement depuis la barre de recherche du navigateur."
+  },
+  "developer_comments": {
+    "en-US": "Feel free to submit issues or pull requests for improvements or bug fixes.",
+    "fr": "N'hésitez pas à soumettre des problèmes ou des demandes de tirage pour des améliorations ou des corrections de bogues."
+  },
   "homepage": {
     "en-US": "https://github.com/JaceTheBlu/HLTB-Search",
     "fr": "https://github.com/JaceTheBlu/HLTB-Search"
   },
+  "is_disabled": false,
+  "is_experimental": false,
+  "name": {
+    "en-US": "How Long to Beat (HLTB) Search 🔍",
+    "fr": "Recherche How Long to Beat (HLTB) 🔍"
+  },
+  "requires_payment": false,
+  "slug": "how-long-to-beat-search",
+  "summary": {
+    "en-US": "Quickly search for game completion times on 'How Long to Beat'.",
+    "fr": "Recherchez rapidement les temps de complétion des jeux sur 'How Long to Beat'."
+  },
   "support_email": {
     "en-US": "support-htlb-search@ggestin.con",
     "fr": "support-htlb-search@ggestin.con"
-  }
+  },
+  "tags": ["games", "search", "tools"],
+  "version": { "license": "GPL-3.0-only" }
 }
