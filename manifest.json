@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "How Long to Beat (HLTB) Search 🔍",
   "license": "GPL-3.0",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Search HLTB directly from Firefox's search bar.",
   "icons": {
     "32": "icons/HLTB-Search-32.png",
@@ -16,7 +16,7 @@
   },
   "browser_action": {
     "default_icon": "icons/HLTB-Search-48.png",
-    "default_title": "HLTB Search",
+    "default_title": "HLTB Search🔍",
     "default_popup": "src/popup.html"
   },
   "browser_specific_settings": {
