@@ -29,6 +29,6 @@
     "en-US": "support-htlb-search@ggestin.con",
     "fr": "support-htlb-search@ggestin.con"
   },
-  "tags": ["games", "search", "tools"],
+  "tags": ["search"],
   "version": { "license": "GPL-3.0-only" }
 }
